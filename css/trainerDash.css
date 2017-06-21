@@ -1,0 +1,88 @@
+body{
+	font-family: 'Convergence', sans-serif;
+    color: #1abc9c
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #1abc9c;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1abc9c !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
+
+.title{
+    padding-top: 4%;
+    color: #FF5A23;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.panel-default>.panel-heading {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.panel-info {
+    width: 100px;
+}
+
+.delete, .edit{
+    margin-left: 3%;
+}
+
+.delete{
+    color:rgb(209, 91, 71);
+}
+
+.completed{
+    text-decoration: line-through;
+    color:lightgray
+}
+
+.canceled{
+    text-decoration: line-through;
+    color:rgb(209, 91, 71);
+}
+
+.schedule{
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+}
+
+#notifications{
+     color:rgb(209, 91, 71);
+}
+
+#notifications .newAppointment{
+    color: #54ACFF;
+}
+
+#notifications .reminder{
+    color: #FF9E49;
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
+    <link rel="stylesheet" href="../css/trainerDash.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+                <a class="navbar-brand  navbar-brand-right" href="#">TRAIN-EZ</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Staff</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <div class="container">
+        <div class="row schedule">
+            <div class="col-sm-offset-1 col-sm-4">
+                <h1 class="text-left title">Trainer Dashboard </h1>
+            </div>
+            <div class="col-sm-offset-4 col-sm-2"><img class="img-responsive" src="../images/logo.png" alt=""></div>
+
+            <div class="col-sm-offset-1 col-sm-3">
+                <button type="button" class="btn btn-success btn-lg btn-block schedule">Schedule Appointment</button>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-offset-1 col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="text-center">
+                            <span class="glyphicon glyphicon-calendar"></span>  Upcoming Appointments
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <div class="month">
+                                            <span class="strong">
+                                            Today
+                                        </span>
+                                        </div>
+                                        <div class="panel-body day text-info">
+                                            6/23
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading completed">
+                                        1:00 -1:45pm
+                                    </h4>
+                                    <p class="completed">
+                                        Session with Jim Smith @ Studio
+                                    </p>
+                                    <h4 class="media-heading">
+                                        2:00 -2:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Donald Trump @ Home
+                                    </p>
+                                    <h4 class="media-heading">
+                                        3:00 -3:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Bob Holt @ Studio
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <div class="month">
+                                            <span class="strong">
+                                            Tomorrow
+                                        </span>
+                                        </div>
+                                        <div class="panel-body day text-info">
+                                            6/24
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading canceled">
+                                        1:00 -1:45pm
+                                    </h4>
+                                    <p class="canceled">
+                                        Session with Jim Smith @ Studio
+                                    </p>
+                                    <h4 class="media-heading">
+                                        2:00 -2:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Donald Trump @ Home
+                                    </p>
+                                    <h4 class="media-heading">
+                                        3:00 -3:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Bob Holt @ Studio
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <div class="month">
+                                            <span class="strong">
+                                            Friday
+                                        </span>
+                                        </div>
+                                        <div class="panel-body day text-info">
+                                            6/25
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        1:00 -1:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Jim Smith @ Studio
+                                    </p>
+                                    <h4 class="media-heading">
+                                        2:00 -2:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Donald Trump @ Home
+                                    </p>
+                                    <h4 class="media-heading">
+                                        3:00 -3:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Bob Holt @ Studio
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <div class="month">
+                                            <span class="strong">
+                                            Sunday
+                                        </span>
+                                        </div>
+                                        <div class="panel-body day text-info">
+                                            6/26
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        1:00 -1:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Jim Smith @ Studio
+                                    </p>
+                                    <h4 class="media-heading">
+                                        2:00 -2:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Donald Trump @ Home
+                                    </p>
+                                    <h4 class="media-heading">
+                                        3:00 -3:45pm
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                        <a><span class="glyphicon glyphicon-pencil edit"></span></a>
+                                    </h4>
+                                    <p>
+                                        Session with Bob Holt @ Studio
+                                    </p>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <!-- end of appointment ul -->
+                        <a href="#" class="btn btn-default btn-block">More Events »</a>
+                    </div>
+                    <!-- end of appointment panel-body -->
+                </div>
+                <!-- end of appointment panel -->
+            </div>
+            <!-- end of appointment div -->
+            <div class="col-sm-4">
+                <div id="notifications" class="panel panel-danger">
+                    <div class="panel-heading">
+                        <h3 class="text-center">
+                            <span class="glyphicon glyphicon-alert"></span>  Notifications
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="media-list">
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <span>
+                                            <b>Recent:</b> 
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <span class="label label-pill label-success">3:16pm</span>
+                                    <span class="label label-pill label-warning">new</span>
+                                    <h4 class="media-heading">
+                                        Appointment cancelation
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p>
+                                        4:30pm with Jim Smith
+                                    </p>
+                                    <span class="label label-pill label-success">2:06pm</span>
+                                    <span class="label label-pill label-warning">new</span>
+                                    <h4 class="media-heading">
+                                        Appointment cancelation
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p>
+                                        3:00pm with Bob Jones
+                                    </p>
+                                    <span class="label label-pill label-success">12:01pm</span>
+                                    <h4 class="media-heading newAppointment">
+                                        New Appointment
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p class="newAppointment">
+                                        3:00pm with Bob Jones @ Studio
+                                    </p>
+                                    <span class="label label-pill label-success">12:01pm</span>
+                                    <h4 class="media-heading reminder">
+                                        Outstanding Balance
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p class="reminder">
+                                        3:00pm with Bob Jones @ Studio
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- end of recent notifications li -->
+                            <li class="media">
+                                <div class="media-left">
+                                    <div class=" text-center date">
+                                        <span>
+                                            <b>Older:</b> 
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <span class="label label-pill label-success">Monday</span>
+                                    <h4 class="media-heading">
+                                        Appointment cancelation
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p>
+                                        4:30pm with Jim Smith
+                                    </p>
+                                    <span class="label label-pill label-success">Monday</span>
+                                    <h4 class="media-heading">
+                                        Appointment cancelation
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p>
+                                        3:00pm with Bob Jones
+                                    </p>
+                                    <span class="label label-pill label-success">Sunday</span>
+                                    <h4 class="media-heading newAppointment">
+                                        New Appointment
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p class="newAppointment">
+                                        3:00pm with Bob Jones @ Studio
+                                    </p>
+                                    <span class="label label-pill label-success">6/15</span>
+                                    <h4 class="media-heading reminder">
+                                        Get intouch
+                                        <a><span class="glyphicon glyphicon-trash delete"></span></a>
+                                    </h4>
+                                    <p class="reminder">
+                                        Bob Jones
+                                    </p>
+
+                                </div>
+                            </li>
+                            <!-- end of older notifications li -->
+                        </ul>
+                        <!-- end of notification ul -->
+                    </div>
+                    <!-- end of notification panel-body -->
+                </div>
+            </div>
+            <!-- end of notification div -->
+
+        </div>
+        <!-- end of row -->
+
+    </div>
+    <!-- end of container -->
+</body>
+
+</html>
